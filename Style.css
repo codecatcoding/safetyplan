@@ -1,0 +1,17 @@
+.parallax {
+    min-height: 10vh; /* Altura mínima: 10% del viewport */
+    background-image: url('./img/169safty.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+@media (max-width: 768px) { /* Ajustes para pantallas pequeñas con mediaquery */
+    .parallax {
+        background-attachment: scroll; /* Aqui no va el paralax por ser en moviles */
+    }
+}
+    .parallax h1 {
+        font-size: 2rem; /* Tamaño de fuente para pantallas pequeñas */
+    }
+}
